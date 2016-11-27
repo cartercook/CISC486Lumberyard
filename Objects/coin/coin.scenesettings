@@ -1,0 +1,12 @@
+{
+    "coin": {
+        "__type": "MeshGroup",
+        "nodeSelectionList": {
+            "selectedNodes": [
+                "RootNode",
+                "RootNode.Cylinder"
+            ],
+            "unselectedNodes": []
+        }
+    }
+}

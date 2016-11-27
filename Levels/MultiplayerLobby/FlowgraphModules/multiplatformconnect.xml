@@ -1,0 +1,72 @@
+<Graph isModule="1" moduleName="multiplatformconnect" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="ServerAddress" Type="5" Input="1"/>
+  <Port Name="Port" Type="1" Input="1"/>
+  <Port Name="Result" Type="-1" Input="1"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_multiplatformconnect" pos="-1810,-30,0" flags="0"/>
+  <Node Id="2" Class="Module:End_multiplatformconnect" pos="-490,-80,0" flags="1">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Multiplayer:Functions:LAN:Connect" pos="-1070,-80,0" flags="0">
+   <Inputs ServerAddress="" Port="-1"/>
+  </Node>
+  <Node Id="4" Class="Multiplayer:Functions:PSN:Connect" pos="-1070,10,0" flags="0">
+   <Inputs ServerAddress="" Port="-1"/>
+  </Node>
+  <Node Id="5" Class="Multiplayer:Functions:XBone:Connect" pos="-1080,100,0" flags="0">
+   <Inputs ServerAddress="" Port="-1"/>
+  </Node>
+  <Node Id="6" Class="Logic:Any" pos="-720,-80,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="7" Class="Game:CheckPlatform" pos="-1540,-170,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="8" Class="Logic:Any" pos="-1280,100,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="9" Class="Logic:Any" pos="-1280,10,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="10" Class="Logic:Any" pos="-1270,-140,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="11" Class="Logic:Any" pos="-720,110,0" flags="0" InHideMask="1023" OutHideMask="1">
+   <Inputs />
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="Port" portOut="Port" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="1" portIn="Result" portOut="Result" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="1" portIn="ServerAddress" portOut="ServerAddress" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Port" portOut="Port" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="Result" portOut="Result" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="1" portIn="ServerAddress" portOut="ServerAddress" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Port" portOut="Port" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="Result" portOut="Result" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="1" portIn="ServerAddress" portOut="ServerAddress" enabled="1"/>
+  <Edge nodeIn="7" nodeOut="1" portIn="Check" portOut="Start" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="3" portIn="In0" portOut="Success" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="3" portIn="In0" portOut="Failed" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="4" portIn="In1" portOut="Success" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="4" portIn="In1" portOut="Failed" enabled="1"/>
+  <Edge nodeIn="6" nodeOut="5" portIn="In2" portOut="Success" enabled="1"/>
+  <Edge nodeIn="11" nodeOut="5" portIn="In2" portOut="Failed" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="6" portIn="Success" portOut="Out" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="7" portIn="In0" portOut="XboxOne" enabled="1"/>
+  <Edge nodeIn="9" nodeOut="7" portIn="In0" portOut="PS4" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="7" portIn="In2" portOut="Android" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="7" portIn="In4" portOut="AppleTV" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="7" portIn="In1" portOut="Mac" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="7" portIn="In0" portOut="PC" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="7" portIn="In3" portOut="iOS" enabled="1"/>
+  <Edge nodeIn="5" nodeOut="8" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="4" nodeOut="9" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="3" nodeOut="10" portIn="Activate" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="11" portIn="Cancel" portOut="Out" enabled="1"/>
+ </Edges>
+ <HyperGraphId Id="{91C92046-B259-4AFC-A809-BED5F41DF7D2}"/>
+ <GraphTokens />
+</Graph>

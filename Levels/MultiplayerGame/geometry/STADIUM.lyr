@@ -1,0 +1,134 @@
+<ObjectLayer>
+ <Layer Name="STADIUM" GUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FullName="STADIUM" External="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1">
+  <LayerObjects>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{C470BAC8-124E-62CF-4A31-0A414C66EDF2}" name="Ctyard_grass" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="726.869129146304, 434.354937445437, 35.0712758312243" Rotate="1.0, -0.0, -0.0, -0.0" Scale="0.739443373928625, 0.612715034378899, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Ctyard_grass.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{0E7B9BFB-F738-6A6B-7ADB-B3A1EE5B8FE2}" name="Small_Pillar" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="580.922209350356, 668.519551722041, 33.238016526383" Rotate="1.0, -0.0, -0.0, -0.0" Scale="0.5, 0.5, 0.635" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Small_Pillar.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{1778ABFC-85F0-28C8-4E21-F1CC42D95294}" name="Small_Pillar" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="580.922209350356, 639.319551722041, 33.238016526383" Rotate="1.0, -0.0, -0.0, -0.0" Scale="0.5, 0.5, 0.635" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Small_Pillar.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{280C9174-8D08-8747-B32E-82F25314E02C}" name="Small_Pillar" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="580.922209350356, 610.119551722041, 33.238016526383" Rotate="1.0, -0.0, -0.0, -0.0" Scale="0.5, 0.5, 0.635" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Small_Pillar.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{61BB8AD4-D732-92E4-2FC8-78C0F1775355}" name="Stadium_Slope" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="350.985082599396, 387.206323468308, 1.52665612500988" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Stadium_Slope.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{B7E0983A-7937-6517-4ED7-FE6FCDE47180}" name="Stadium_Seating_L" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="233.130870853811, 496.729743038753, 35.0712758312205" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Stadium_Seating_L.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{6D3C2C25-8C4B-EEFA-7E02-C22139350F57}" name="StadiumGround" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="349.999999999923, 587.206487224907, 1.52665612500991" Rotate="0.707106781186842, -0.0, -0.0, -0.707106781186253" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/StadiumGround.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{EA1F68C6-14F7-4A89-562B-59B53E16D244}" name="Stadium_Seating_R" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="233.130870853811, 496.729743038445, 35.0712758312186" Rotate="0.707106781186548, -1.01283424636363e-016, -1.01283424636363e-016, -0.707106781186547" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Stadium_Seating_R.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{791680E9-F7E7-7C65-A51E-BACE25C4364B}" name="StyleEntrance_R " LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="355.150923819861, 385.073075491287, 39.0623024312816" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/StyleEntrance_R .cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{88ADA953-506D-00D6-7B3C-FBDDF8762FD4}" name="StyleEntrance_L" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="343.845581569913, 574.326108261696, 33.5045267476695" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/StyleEntrance_L.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{827563C7-D958-D1C9-21DF-8DE3AC3920AB}" name="Landscape_Arch" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="213.019257217997, 235.319070335962, 35.0623024312812" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Landscape_Arch.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{23D0629A-2908-8515-C642-884BC2B103BB}" name="Stadium_Bld" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="233.019257217997, 363.478486927713, 25.6559412030932" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Stadium_Bld.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{6BC10F5E-6FCB-86CE-4039-B7F718A82B1F}" name="Overhang_Left" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="382.657381385695, 706.614400172828, 38.1909604853105" Rotate="0.707106781186548, -0.0, -0.0, -0.707106781186547" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Overhang_Left.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{A0C46A4D-D6AF-B717-3D8C-462096E567CD}" name="Overhang_R" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="408.974986312841, 386.437896076101, 57.3993086570174" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Overhang_R.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{D50BE1B5-36E9-2C14-BE99-1A1BD32C5499}" name="Goal" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="409.999999999965, 483.206487224973, 1.52665612500991" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Goal.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="STADIUM" Id="{1829F976-9E0C-546B-925F-8C0BA60CC717}" name="Goal" LayerGUID="{976CBE3E-FB72-A272-576C-B2BDE4CC9325}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="589.999999999988, 510.206487224966, 1.52665612500991" Rotate="4.57273108267486e-015, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/Goal.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		</LayerObjects>
+	</Layer>
+</ObjectLayer>

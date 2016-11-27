@@ -1,0 +1,15 @@
+<ObjectLayer>
+ <Layer Name="logic" GUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{7EC20D45-7D66-4DE5-9159-D09DE0E48DED}" Name="FlowgraphEntity1" HideOrder="0" Pos="501.99997,500,49" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity"/>
+   <Object Type="EnvironmentProbe" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{F491C5CD-7A22-4E6F-8871-7A8CA40FB48C}" Name="EnvironmentProbe1" HideOrder="0" Pos="502.99997,505,49" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="1000" BoxSizeY="1000" BoxSizeZ="1000" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2.2" fSpecularMultiplier="1.1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="levels/MultiplayerLobby/geometry/cubemaps/environmentprobe1_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

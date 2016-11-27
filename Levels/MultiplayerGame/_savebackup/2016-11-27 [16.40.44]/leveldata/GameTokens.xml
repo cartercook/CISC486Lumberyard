@@ -1,0 +1,9 @@
+<GameTokens>
+ <GameTokensLibrary>
+  <LevelLibrary Name="Level">
+   <GameToken Name="EditorControllerAssigned" Type="Bool" Value="false" LocalOnly="1"/>
+   <GameToken Name="BallEntityId" Type="Int" Value="0" LocalOnly="1"/>
+   <GameToken Name="LastOrientation" Type="Vec3" Value="0,0,0" LocalOnly="1"/>
+  </LevelLibrary>
+ </GameTokensLibrary>
+</GameTokens>

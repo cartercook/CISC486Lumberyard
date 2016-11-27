@@ -1,0 +1,6 @@
+<download name="GameLiftLobby" type="Map">
+ <index src="filelist.xml" dest="filelist.xml"/>
+ <files>
+  <file src="level.pak" dest="level.pak" size="2470540" md5="156fb4497de3615639ccc84fd92b1513"/>
+ </files>
+</download>

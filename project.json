@@ -1,0 +1,40 @@
+{
+    "project_name"      : "MultiplayerProject",
+    "product_name"      : "Multiplayer Project",
+    "executable_name"   : "MultiplayerProjectLauncher",
+    "code_folder"       : "Code/MultiplayerProject",
+    "modules"           : ["MultiplayerProject"],
+
+    "android_settings": {
+        "package_name"  : "com.lumberyard.multiplayer",
+        "version_number" : 1,
+        "version_name" : "1.0.0.0",
+        "orientation"   : "landscape"
+    },
+
+    "orbis_settings": {
+        "data_folder"   : "MultiplayerProject",
+        "nptitle_dat"   : "../Resources/nptitle.dat",
+        "param_sfo"     : "../Resources/param.sfo",
+        "trophy_trp"    : "../Resources/trophies.trp"
+    },
+
+    "durango_settings" :
+    {
+        "app_id"            : "MultiplayerProject.app",
+        "package_name"      : "MultiplayerProject",
+        "display_name"      : "Lumberyard MultiplayerProject",
+        "publisher"         : "Amazon, Inc",
+        "description"       : "LUMBERYARD",
+        "foreground_text"   : "light",
+        "background_color"  : "#6495ED",
+        "version"           : "1.0.0.0",
+        "titleid"           : "6FFEA8A4",
+        "scid"              : "0c710100-e777-4c2e-b684-dbf56ffea8a4",
+        "appxmanifest"      : "../Resources/AppxManifest.xml",
+        "logo"              : "../Resources/DurangoLogo.png",
+        "small_logo"        : "../Resources/DurangoSmallLogo.png",
+        "splash_screen"     : "../Resources/DurangoSplashScreen.png",
+        "store_logo"        : "../Resources/DurangoStoreLogo.png"
+    }
+}

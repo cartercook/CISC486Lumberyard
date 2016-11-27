@@ -1,0 +1,80 @@
+<Graph isModule="1" moduleName="ServerListRow" Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+ <ModuleInputsOutputs>
+  <Port Name="CanvasId" Type="1" Input="1"/>
+  <Port Name="RowButtonId" Type="1" Input="1"/>
+  <Port Name="ListResult" Type="-1" Input="1"/>
+  <Port Name="ServerNameId" Type="1" Input="1"/>
+  <Port Name="MapNameId" Type="1" Input="1"/>
+  <Port Name="SelectedRowId" Type="1" Input="1"/>
+ </ModuleInputsOutputs>
+ <Nodes>
+  <Node Id="1" Class="Module:Start_ServerListRow" pos="-190,-40,0" flags="0"/>
+  <Node Id="2" Class="Module:End_ServerListRow" pos="980,-60,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="3" Class="Multiplayer:Functions:ListServersResult" pos="140,120,0" flags="0">
+   <Inputs />
+  </Node>
+  <Node Id="7" Class="Game:Start" pos="310,-30,0" flags="0">
+   <Inputs InGame="1" InEditor="0"/>
+  </Node>
+  <Node Id="8" Class="UI:Canvas:Unload" pos="980,30,0" flags="0">
+   <Inputs CanvasId="0"/>
+  </Node>
+  <Node Id="9" Name="Prevent connecting in editor" Class="_comment" pos="310,-60,0" flags="0"/>
+  <Node Id="10" Class="UI:Text:SetText" pos="520,120,0" flags="0">
+   <Inputs CanvasID="0" ElementID="0" Value=""/>
+  </Node>
+  <Node Id="13" Class="UI:Text:SetText" pos="520,230,0" flags="0">
+   <Inputs CanvasID="0" ElementID="0" Value=""/>
+  </Node>
+  <Node Id="14" Class="Debug:Log" pos="890,120,0" flags="0">
+   <Inputs message="Connecting to server"/>
+  </Node>
+  <Node Id="15" Class="String:Concat" pos="650,120,0" flags="0">
+   <Inputs String1="Connecting Row Id " String2=""/>
+  </Node>
+  <Node Id="16" Class="Math:Equal" pos="140,-30,0" flags="0">
+   <Inputs A="0" B="0"/>
+  </Node>
+  <Node Id="17" Class="Math:Equal" pos="140,40,0" flags="0">
+   <Inputs A="0" B="0"/>
+  </Node>
+  <Node Id="18" Class="Logic:All" pos="480,-30,0" flags="0" InHideMask="511" OutHideMask="1">
+   <Inputs />
+  </Node>
+  <Node Id="22" Class="Module:Call_multiplatformconnect" pos="690,-90,0" flags="0">
+   <Inputs Instanced="1" InstanceID="-1" ServerAddress="" Port="0"/>
+  </Node>
+ </Nodes>
+ <Edges>
+  <Edge nodeIn="3" nodeOut="1" portIn="Result" portOut="ListResult" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="1" portIn="CanvasId" portOut="CanvasId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="CanvasID" portOut="CanvasId" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="1" portIn="ElementID" portOut="ServerNameId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="1" portIn="CanvasID" portOut="CanvasId" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="1" portIn="ElementID" portOut="MapNameId" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="1" portIn="Set" portOut="RowButtonId" enabled="1"/>
+  <Edge nodeIn="15" nodeOut="1" portIn="String2" portOut="RowButtonId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="1" portIn="A" portOut="RowButtonId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="1" portIn="B" portOut="SelectedRowId" enabled="1"/>
+  <Edge nodeIn="16" nodeOut="1" portIn="Activate" portOut="Update" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="1" portIn="A" portOut="RowButtonId" enabled="1"/>
+  <Edge nodeIn="17" nodeOut="1" portIn="Activate" portOut="RowButtonId" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="1" portIn="Result" portOut="ListResult" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="3" portIn="Activate" portOut="ServerName" enabled="1"/>
+  <Edge nodeIn="10" nodeOut="3" portIn="Value" portOut="ServerName" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="3" portIn="Activate" portOut="MapName" enabled="1"/>
+  <Edge nodeIn="13" nodeOut="3" portIn="Value" portOut="MapName" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="7" portIn="In0" portOut="output" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="15" portIn="message" portOut="Out" enabled="1"/>
+  <Edge nodeIn="14" nodeOut="16" portIn="input" portOut="OnTrue" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="16" portIn="In1" portOut="OnTrue" enabled="1"/>
+  <Edge nodeIn="18" nodeOut="17" portIn="In2" portOut="OnFalse" enabled="1"/>
+  <Edge nodeIn="22" nodeOut="18" portIn="Call" portOut="Out" enabled="1"/>
+  <Edge nodeIn="2" nodeOut="22" portIn="Success" portOut="Done" enabled="1"/>
+  <Edge nodeIn="8" nodeOut="22" portIn="Activate" portOut="Done" enabled="1"/>
+ </Edges>
+ <HyperGraphId Id="{D11DCFC2-EB29-4D8B-8790-5CF295F98B3B}"/>
+ <GraphTokens />
+</Graph>

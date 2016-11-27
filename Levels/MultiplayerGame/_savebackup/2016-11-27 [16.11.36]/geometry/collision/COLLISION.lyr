@@ -1,0 +1,1166 @@
+<ObjectLayer>
+ <Layer Name="COLLISION" GUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FullName="COLLISION" External="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" Expanded="0" IsDefaultColor="1">
+  <LayerObjects>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{11DFD5A9-52D2-1B85-707C-C22734BC759F}" name="End_Edge_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="311.179598853261, 416.198607651508, 35.1889093750325" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Edge_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F22CD15C-08F5-3BD8-B294-639722F3A6C3}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="326.689904411991, 588.599535750241, 35.0712758312333" Rotate="0.986714314719825, -2.23892512421818e-014, 7.0935368223861e-014, 0.162464953534557" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{AD10F21C-D983-E898-823C-6B3E8EB6BA57}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="421.410932186594, 620.660834808808, 35.0802492311582" Rotate="0.998848386484951, -1.49612804157117e-014, 4.37500863979971e-014, 0.0479781285213437" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{10C779A1-1865-5F7A-536D-612E2BC3CD9C}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="520.950552023312, 630.245410060831, 35.0802492311493" Rotate="0.999902524009304, 1.21176049102822e-016, -2.69261261368096e-015, -0.0139621803391488" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CB685F3B-186B-9E40-F802-D697DC580756}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="620.911563527348, 627.453246188473, 35.0802492311498" Rotate="0.993637904366384, -3.19643089961979e-016, -4.45216460708259e-015, -0.112622000543325" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{369D3C87-C863-1643-51D4-D95C0119AF2A}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="322.926015473919, 399.328517813821, 35.0712758312186" Rotate="0.988756381047006, -0.0, -0.0, -0.14953534344371" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{C9A3E516-398B-0220-7A87-573131229123}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="231.968876637389, 556.538236691673, 35.0712758312481" Rotate="0.986714314719825, -2.23892512421818e-014, 7.0935368223861e-014, 0.162464953534557" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{70608223-0753-ECEE-F929-425E049066AC}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="231.026134653288, 442.080049738747, 35.0712758312192" Rotate="0.976296007119934, 2.99747211994409e-016, 2.79935316965666e-015, -0.216439613938101" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{BA54F32B-8493-EB75-9FC5-BE1A5F503DE6}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="420.373816331606, 369.364422295417, 35.0712758312188" Rotate="0.998650943403701, -6.93816942499045e-015, 3.00866678169626e-014, -0.0519258436512988" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{A2493C06-0E5E-7A8B-E2E6-10B1D0AED0BB}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="520.871673538813, 358.93933788076, 35.0712758312126" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8AD4F795-6984-0FAD-2439-5E57208CEA09}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="622.297962875863, 359.041575571686, 35.0712758312109" Rotate="0.997440782930944, 9.88445894696227e-014, -1.60263368760205e-013, 0.0714974443326858" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{ABDF266D-7DA8-D841-C8CD-ACDFD924FCAF}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="726.189519699233, 497.831418500955, 49.0712758311233" Rotate="0.663926212652563, -3.18579008317705e-015, -1.79408417751224e-013, 0.747798090498246" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9C0AFDA8-3192-8947-87B7-D52ECD54E677}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="708.393346664666, 396.456970617875, 49.0712758311035" Rotate="0.767165151819248, -3.4764550512414e-014, -1.58512175302879e-013, 0.641449631564435" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{ED29C642-922E-989F-3F4B-9E523211C310}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="647.808260663111, 367.784582950147, 49.0712758311049" Rotate="0.934825676395837, 1.90172967757919e-014, -1.61161490793931e-013, 0.355106962408603" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{76BF2066-2880-B897-42B0-1B0006918457}" name="Generic_Box_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="633.126960200079, 621.524864349174, 49.0712758311523" Rotate="0.957822494845455, 8.270507325523e-014, 4.31083451516364e-014, -0.287360519849246" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Generic_Box_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{766F3BC6-DB44-8900-3227-4DB1F6571EA1}" name="Highside_UpperFloor_MidL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="659.866287473649, 363.185415459668, 35.0712758312081" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperFloor_MidL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{071AAB89-12E9-6384-F89F-D5546C1DBAD9}" name="Seating_Mid_RR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000155, 415.399669498782, 16.0712758312245" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Mid_RR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{81F8F59E-504F-C4EE-BA49-3EF65B3F9043}" name="Seating_Mid_LR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000137, 578.059816578389, 16.0712758312246" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Mid_LR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9A65A7E3-F059-0E47-6E89-E157BD372902}" name="Highside_UpperFloor_MidL_Col1" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="659.866287473649, 630.274070617528, 35.0712758312081" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperFloor_MidL_Col1.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{47FBEF8B-24DB-DAE3-361F-EE85E38B60C2}" name="Highside_UpperSeating_MidRa_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="666.844987834164, 457.261942126108, 35.0712758312184" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperSeating_MidRa_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D8D10C21-2BA1-F697-959F-5CA83CB33C19}" name="Highside_UpperSeating_MidLb_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="640.982138065589, 594.548756803931, 35.071275831208" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperSeating_MidLb_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{20B55DC8-D61A-15B9-83C6-398EEA4DFE69}" name="Highside_UpperSeating_MidLa_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="666.844987834164, 536.197543951087, 35.0712758312184" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperSeating_MidLa_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{5EFA1E24-47A7-829E-34BF-D055CB17F8E3}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="402.866062376415, 577.446476257744, 15.0712758312245" Rotate="-0.490501617842809, 2.44271345271302e-016, 4.11378430830994e-016, -0.871440280738495" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{36688F4F-D8A6-ABBC-ABCC-21EC9D99C377}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="363.931305527839, 457.154023160786, 15.0712758312246" Rotate="0.242738456182342, -4.7744277453566e-017, -8.58085481565521e-018, -0.97009176982913" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{EB26CCD6-5634-2063-534F-DE269F782730}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="367.784937732255, 449.918865701609, 15.0712758312246" Rotate="0.285729264330723, -2.38514840054792e-017, -5.78898138977222e-017, -0.958310381611837" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{3CFAF694-A0CA-2A34-E5C1-88FFAF78322B}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="372.267489502695, 443.055578278565, 15.0712758312246" Rotate="0.32815232537523, 8.87025962814262e-020, -1.07083745300315e-016, -0.944624820418577" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{217C3359-1512-6227-6D8A-EBF7B3777C83}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="377.343351024006, 436.618683495952, 15.0712758312246" Rotate="0.369923344240455, 2.40287129452404e-017, -1.5606490015631e-016, -0.929062279605602" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D4BA2726-0531-3B05-EAD7-F1BBB4513271}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="382.972199172283, 430.659316654615, 15.0712758312246" Rotate="0.4109593214647, 4.79209779845271e-017, -2.04735952386602e-016, -0.911653682108109" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{597E5AF5-08ED-19C2-82FA-35ACA8B792E1}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="389.109317845554, 425.224819528277, 15.0712758312246" Rotate="0.451178718122556, 3.87493463165269e-017, -2.06668136128153e-016, -0.892433618995434" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{4BAA2862-6475-9129-6B2B-F93C7D9B99E2}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="395.705953192734, 420.358364276011, 15.0712758312245" Rotate="0.490501617842802, 6.03718619647126e-017, -2.55944936225242e-016, -0.871440280738499" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9564AA57-1421-A68B-0598-E38C3AE61E9F}" name="Stairs_Big_LR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="536.900340026351, 576.532509091467, 15.0712758312246" Rotate="0.854842976900307, -0.0, 0.0, 0.518886774589815" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Big_LR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{4D9F2D80-6B47-9ECC-4D5E-C72463A0AD7C}" name="Seating_Mid_LL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000137, 582.251909735828, 16.0712758312246" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Mid_LL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{7CE2433C-C362-8433-03AB-A37482FD8144}" name="Platform_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000168, 569.067330158029, 15.0712758312246" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Platform_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F43EC21D-4617-EA1C-FE49-C44ED1A13533}" name="Mid_Balc_Rail_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000155, 602.256266202932, 26.0712758312245" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Mid_Balc_Rail_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{7CA319E8-F318-2FFA-DF95-D259E2375A9A}" name="Mid_Balc_Floor_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000157, 602.726266202932, 27.0712758312245" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Mid_Balc_Floor_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{A15B8B7A-549F-1A2A-6D9D-7BDB4794E310}" name="Seating_Mid_RL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000137, 411.207576341371, 16.0712758312245" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Mid_RL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{4CB37E6D-AE69-0FA1-7584-CF300CE3011C}" name="Platform_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000168, 424.39215591917, 15.0712758312245" Rotate="6.3926228143278e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Platform_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CB4E73C2-3905-7A07-BE7C-9DECBA4B64AD}" name="Mid_Balc_Floor_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000155, 390.733219874266, 27.071275831224" Rotate="6.46392661618478e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Mid_Balc_Floor_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{5F6D2C1B-36F1-6516-AE9E-F013720E4259}" name="Mid_Balc_Rail_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.000000000155, 391.203219874266, 26.0712758312241" Rotate="6.46392661618478e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Mid_Balc_Rail_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9685B27B-3076-ACC1-F5F4-7BEEB38B3402}" name="Seating_Sm_B_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="550.18405455489, 585.5568592063, 15.0712758312246" Rotate="0.854842976900307, -0.0, 0.0, 0.518886774589814" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Sm_B_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{7AD9138C-9A44-B51C-A2A8-355123F33FCC}" name="Seating_Sm_A_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="448.093170110296, 585.077630322891, 15.0712758312246" Rotate="-0.447255146599023, -0.0, -0.0, -0.894406414243931" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Sm_A_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{799A9CEB-4C85-1067-5009-A286CA57942A}" name="Seating_Sm_D_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="399.357169780238, 418.142499983533, 15.0712758312246" Rotate="0.707106781186548, -0.0, -0.0, -0.707106781186547" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Sm_D_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{70AFF973-56BE-EBD1-115E-BF5EB31D0768}" name="Seating_Sm_C_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="550.695249387917, 408.044827263539, 15.0712758312245" Rotate="0.86759828087915, -0.0, -0.0, -0.497265746875395" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Seating_Sm_C_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{621831D5-4578-4DA6-71D4-A5EA09A218FA}" name="Stairs_Big_LL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="463.47444506832, 576.593480836345, 15.0712758312243" Rotate="-0.447255146599015, -0.0, -0.0, -0.894406414243935" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Big_LL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{27B016F5-E1F9-97B7-2A10-45A8C59EA39F}" name="Stairs_Big_RR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="463.648227323734, 416.803713065763, 15.0712758312245" Rotate="0.412054332991554, -2.68722325707846e-017, -1.21524525478618e-017, -0.911159276231596" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Big_RR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{98888303-64BA-8AF8-A0A4-C77779DC8D12}" name="Lowside_Isle_Floor_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="352.983093612699, 496.729743038319, 26.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Isle_Floor_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{C0798B8A-618A-6C6E-42F9-E53CD63833C2}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="633.888497418195, 448.823596420888, 15.0712758312246" Rotate="-0.285729264324368, 1.54830488557953e-016, 1.111770444232e-016, -0.958310381613731" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{1D4FD9AB-DD68-D0FF-7442-47E4A81592B8}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="629.301774703455, 441.815654953887, 15.0712758312245" Rotate="-0.328152325366645, 1.7127906522239e-016, 1.37776336627206e-016, -0.944624820421559" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{BEEC8A84-3E19-F631-2715-9749B57DA4E6}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="646.643652979834, 505.096937955122, 15.0712758312245" Rotate="0.0222879490625264, 3.29751346361844e-017, -7.82017905439192e-017, -0.999751592810227" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{34B1DC04-C767-D017-38C9-360CEFF0D5E9}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="645.526857917075, 513.397663083876, 15.0712758312245" Rotate="0.0668195607935618, 4.99492857158744e-017, -9.22091021971353e-017, -0.997765075704374" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{3B01CC3F-7708-20C3-01CE-1E187233DC18}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="643.675393124857, 521.565976679626, 15.0712758312245" Rotate="0.111218401342664, 6.68241870306738e-017, -1.06033193378211e-016, -0.993795988723431" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9B9F2B32-2A1A-D3F8-2A3F-5D3C28155A4B}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="641.103966814564, 529.536988886748, 15.0712758312246" Rotate="0.155396249739169, 8.35663079713273e-017, -1.1964659547023e-016, -0.987852218485641" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D3F822E7-A828-04B2-5F84-936C0B57237C}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="637.833006639969, 537.247377230513, 15.0712758312246" Rotate="0.199265324125701, 1.00142381764418e-016, -1.33022258497599e-016, -0.979945575326038" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{A884584A-86CD-91A5-2818-8891B36A7AB4}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="633.888497418009, 544.635889656797, 15.0712758312245" Rotate="0.242738456182361, 9.41147760815977e-017, -1.37352927906045e-016, -0.970091769829125" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{AEC9F2E7-38FD-D805-E420-D3963A99BAC8}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="629.301774702957, 551.643831124191, 15.0712758312246" Rotate="0.285729264330636, 1.09891290306093e-016, -1.51181090234352e-016, -0.958310381611862" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CAAF4411-3F7B-B60E-288B-A707E42DFDAB}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="624.109275853789, 558.215529883004, 15.0712758312246" Rotate="0.328152325375273, 1.2544944936164e-016, -1.64708854119714e-016, -0.944624820418562" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{3014581C-C0C0-4F7A-2DCA-DC27FB376C57}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="624.109275853784, 435.243956194187, 15.0712758312246" Rotate="-0.36992334424045, 1.87387308556944e-016, 1.64101865784043e-016, -0.929062279605604" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{31BA6B4C-26EB-F5F2-FA07-2831727FE1E5}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="618.352250572368, 429.160706340329, 15.0712758312249" Rotate="-0.410959321464683, 1.68543478970021e-015, 1.83895001796775e-015, -0.911653682108117" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{1A486F7D-F90E-8A0A-3E37-C910D41885FD}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="612.076433211944, 423.614231303519, 15.0712758312253" Rotate="-0.451178718122556, 1.60180781521353e-015, 1.91223411799817e-015, -0.892433618995434" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{457AC7BB-5254-0B89-EDBF-2FC8E8CC5EEB}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="605.331679459085, 418.648592805942, 15.0712758312253" Rotate="-0.490501617842801, 1.51499803146897e-015, 1.9817185883875e-015, -0.8714402807385" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B7E0ACBC-E955-1785-BBFA-9C590CBE81CB}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="618.352250572374, 564.298779736863, 15.0712758312246" Rotate="0.369923344240335, 1.41041798396783e-016, -1.61320905435112e-016, -0.92906227960565" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8FC4316D-CF25-91FE-92B1-4BAE84CA5695}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="612.076433211958, 569.845254773667, 15.0712758312246" Rotate="0.410959321464587, 1.337124346721e-016, -1.67446135337494e-016, -0.91165368210816" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{92BE8654-75FB-F2F2-13C9-03F1D0FD4C29}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="605.3316794591, 574.810893271246, 15.0712758312246" Rotate="0.451178718122457, 1.31382105272228e-016, -1.201955629718e-016, -0.892433618995484" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{658B34E8-8CFC-E9D8-1D28-6F693F626BE3}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="598.171570275434, 579.156247727793, 15.0712758312246" Rotate="0.490501617842723, 9.34709890456022e-017, -2.52466617410791e-017, -0.871440280738544" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{946141BB-0CBB-33D0-BAB6-B8493DE7C018}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="367.875814749794, 543.693975342689, 15.0712758312246" Rotate="-0.242738456182294, 1.09304696047448e-016, 1.94121067472638e-016, -0.970091769829142" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E78F31EA-1842-33E7-45D8-0E830D834AA5}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="372.37166044731, 550.54856184299, 15.0712758312246" Rotate="-0.285729264330777, 1.53503624472959e-016, 2.6938003468384e-016, -0.958310381611821" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{ADBA993F-38AA-6852-89D2-DE127584EC42}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="377.459988351865, 556.975606557452, 15.0712758312246" Rotate="-0.328152325375323, 1.97397539554889e-016, 3.44103740885061e-016, -0.944624820418545" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{DFC42C5E-005D-5164-4412-61A4224119D6}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="383.10037630542, 562.924052435103, 15.0712758312246" Rotate="-0.369923344240375, 2.12536347090109e-016, 3.34964885143219e-016, -0.929062279605634" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{0E5F3265-DBC6-17F4-D8E2-9CB3B72D2C21}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="389.248016532707, 568.346644459393, 15.0712758312246" Rotate="-0.410959321464666, 2.27252842630905e-016, 3.25160450592611e-016, -0.911653682108125" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{52F5517C-D756-5B2A-391E-F3954811C478}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="395.854071598414, 573.200305046499, 15.0712758312246" Rotate="-0.451178718122537, 2.12536347090125e-016, 3.34964885143209e-016, -0.892433618995443" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D512093C-92C4-AF1E-A84E-F55E66D2B6BA}" name="StadiumGround_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="349.999999999923, 587.206487224914, 1.52665612500991" Rotate="0.707106781186842, -0.0, -0.0, -0.707106781186253" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/StadiumGround_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CA6D5CDB-4519-3CBA-146A-F4AD2A8F8D83}" name="Stadium_Slope_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="630.000000000077, 496.729743039031, 1.52665612500988" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Slope_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{6DCA8098-6C23-8E06-DF3F-22C9E096AF91}" name="Stadium_Slope_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="370.000000000192, 496.729743038877, 1.52665612500988" Rotate="4.26719808672426e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Slope_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D7CEAB48-F072-F20E-D361-30512E53512B}" name="Stadium_Slope_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="630.000000000077, 496.729743039264, 1.52665612500988" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Slope_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8B0F060B-66F5-61C4-9AFF-A5473434A6D6}" name="Stadium_Slope_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="370.000000000192, 496.729743039166, 1.52665612500988" Rotate="-5.33584495981329e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Slope_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{81D252FA-DA5E-51E3-CB76-4081BD5EB5BC}" name="Entry_Middle_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="572.712768920721, 643.256266202782, 27.0712758312245" Rotate="2.03917694801212e-013, 5.80202881624077e-014, 1.18313634137802e-026, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Entry_Middle_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F02E55AF-1F62-15E4-873C-C7F409861FD4}" name="Entry_Middle_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="403.863122452294, 350.203219874417, 27.0712758311757" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Entry_Middle_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E755598A-BF15-F487-EB53-3385572CBD4D}" name="End_Curve_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="641.214917400714, 496.729743038603, 14.8641565465921" Rotate="3.77531339523784e-012, -2.49829801401606e-016, 2.40623083510916e-016, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Curve_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{547401A6-B763-7AC8-240D-4E40625748E8}" name="End_Curve_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="641.214917400714, 496.729743038604, 14.8641565465921" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Curve_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B1B39290-1B94-D90F-4A4A-AB2C1BFC42B0}" name="End_Curve_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.785082599318, 496.729743038754, 14.8641565465921" Rotate="-1.22876681052375e-010, 4.3401197877975e-017, -4.04224468384671e-018, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Curve_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{742E44E6-384F-678F-63BB-79E095D12BB2}" name="End_Curve_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.785082599396, 496.729743038763, 14.8641565465921" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Curve_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{46C4A3AF-ADB1-6D39-138C-145C531D2021}" name="End_Floor_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="599.977117052978, 570.376004860849, 14.5266561250099" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Floor_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{FCEC1525-DF9B-4405-D3B0-D20D175185D4}" name="End_Floor_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="400.022882947137, 423.083481216508, 14.5266561250099" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/End_Floor_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{6B8A54BB-E2E9-5CB7-0D8B-4C6CD04AB04B}" name="Stadium_TopSlope_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="354.950021401498, 496.729743039183, 10.5266561250099" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_TopSlope_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{2222124F-7636-19CC-7C4C-EDBE567DC491}" name="Stadium_TopSlope_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="645.049978598771, 496.729742529728, 10.5266561250099" Rotate="1.99409701623108e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_TopSlope_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E24A8F6F-C304-684F-3AF3-1271CA370278}" name="HighSide_UpperIsle_Wall_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="665.034807268414, 496.72974303853, 34.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/HighSide_UpperIsle_Wall_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{9134BD75-3733-2A28-94D1-472E992BB30B}" name="HighSide_UpperIsle_Wall_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="665.034807268414, 496.72974303853, 34.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/HighSide_UpperIsle_Wall_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{006F7849-2AE0-D25D-D066-628B11E813B1}" name="Highside_Seating_MidR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="626.455869290149, 422.281093405857, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Seating_MidR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{07933BAA-220B-6461-183D-45D02B0B3288}" name="Highside_Seating_MidL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="626.455869290149, 571.178392671114, 27.0712758312244" Rotate="0.0, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Seating_MidL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{FBFEA9FF-1707-0103-9775-E30E11C92023}" name="Highside_Main_Floor_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="638.076884310501, 350.203219874417, 35.0712758309532" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Main_Floor_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F93548F0-5281-C973-A2EC-73BDB21F2E1E}" name="Highside_UpperSeating_MidRb_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="640.982138065589, 398.910729273265, 35.071275831208" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_UpperSeating_MidRb_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{5A4F5CFA-6439-8E5F-5F76-FE36C791D8C7}" name="Railing_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="400.022854749072, 417.094493727362, 14.4641565465921" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Railing_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{39720A7C-FD1A-DF55-BF84-32CF97435245}" name="Railing_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="599.889051013686, 576.364910846433, 14.4641565465921" Rotate="7.21907310575833e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Railing_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{DF16EAE7-C823-DF6B-663C-0F1F7EF0D452}" name="CornerRnd_B_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="549.743616499229, 579.329474415299, 15.0712758312246" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/CornerRnd_B_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{14616961-D973-E810-072F-CC4A879BCC1C}" name="CornerRnd_C_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="550.153580780969, 408.044827263539, 15.0712758312245" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/CornerRnd_C_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{ACFAF570-B2FD-227A-DC56-721BDA917280}" name="CornerRnd_A_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="434.913037533647, 579.333327833746, 15.0712758312246" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/CornerRnd_A_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CD4A8C26-5039-4AA7-F39A-3811B3FA71AA}" name="CornerRnd_D_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="434.913037533647, 408.630727557427, 15.0712758312245" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/CornerRnd_D_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F88CAB4D-8C38-9161-0D00-A7D8199CF4D7}" name="Stadium_TopSlope_Side_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="499.964939820195, 565.077825881819, 10.5266561250099" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_TopSlope_Side_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{75AA89A1-A41A-B1E3-7C2B-FF775B1DBF02}" name="Stadium_TopSlope_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="354.950022577959, 496.729742874644, 10.5266561250099" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_TopSlope_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{A194314C-F809-85AD-D033-CC2C671B056F}" name="Stadium_TopSlope_Side_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.035061356511, 428.381659522468, 10.5266561250099" Rotate="-4.96824803519758e-015, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_TopSlope_Side_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{FFEF9FA8-9E36-9601-6F56-DE4F03801BFD}" name="Stadium_Ceiling_Side_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="599.933069934202, 575.618928010607, 10.5266561250099" Rotate="0.707106781186548, -0.0, 0.0, 0.707106781186547" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Ceiling_Side_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E4FB70E9-1B32-020E-F81C-1F1993208184}" name="Stadium_Ceiling_Side_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="400.066931242539, 417.840557393348, 10.5266561250099" Rotate="0.707106781187723, -0.0, -0.0, -0.707106781185372" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stadium_Ceiling_Side_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{3424378A-4DAD-14B9-7278-B4FA20D24C5B}" name="Side_Floor_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="500.044047118952, 560.209210605667, 14.5266561250099" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Side_Floor_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F4A57B2F-4BB5-3734-ECE7-8248DF9018DA}" name="Side_Floor_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="499.955952881394, 433.250275471591, 14.5266561250098" Rotate="5.54015167075761e-013, -0.0, -0.0, -1.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Side_Floor_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{220C63A9-8BAD-5834-EAE7-F986B81AC3CB}" name="Lowside_Seating_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="348.979115639173, 496.729743038331, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Seating_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{77E65301-D6DB-B450-684A-19A6DE76EB8A}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="360.799441207953, 528.922954766712, 15.0712758312246" Rotate="-0.155396249739253, -0.0, -0.0, -0.987852218485627" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8F799BB4-9768-A82E-0D1B-037DDCAF7D6B}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="364.008166682682, 536.466300539895, 15.0712758312246" Rotate="-0.199265324125725, -1.55639488282185e-017, 2.39836088592897e-019, -0.979945575326033" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E5416760-3F1D-319A-2029-9AB6819472AD}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.275128744204, 521.123863075281, 15.0712758312246" Rotate="-0.111218401342815, -0.0, -0.0, -0.993795988723414" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{C588E419-1885-ED1F-AC8C-4BFF7E2BA15A}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="356.455282668354, 513.130982187504, 15.0712758312245" Rotate="-0.0668195607935877, 1.5537797708484e-017, -9.33202468338824e-019, -0.997765075704372" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{0CC4E191-4687-A248-3B59-E1F2B6EE006E}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="355.354360009719, 505.007808304983, 15.0712758312245" Rotate="-0.0222879490625165, 1.54807728185516e-017, -1.62471456480106e-018, -0.999751592810227" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{FEC9B8D6-0E6A-9F59-0936-94FC831708EA}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="354.981106602005, 496.818872688622, 15.0712758312245" Rotate="0.0222879490625334, 2.72032600191753e-019, -4.01221199413504e-018, -0.999751592810227" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{7DF5AAF9-17E6-F37F-D63F-C3D99BFDD421}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="355.338487605594, 488.629229018457, 15.0712758312245" Rotate="0.0668195607934095, -1.49372481494959e-017, -6.3917371152756e-018, -0.997765075704384" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{36C3041F-AD3B-CAF0-7E95-82F456CBC876}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="356.423663951984, 480.503936597666, 15.0712758312246" Rotate="0.111218401342833, -1.46375612666408e-017, -7.05106274229267e-018, -0.993795988723412" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{DAC85197-77B4-48E4-4D86-106C2AEB94C7}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.228014897661, 472.507543517608, 15.0712758312246" Rotate="0.15539624973927, -2.98487921956109e-017, -8.71234874116455e-018, -0.987852218485625" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{BC79A9DF-A84E-4E99-6AD6-754E89D335AF}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="360.737206508089, 464.703573881062, 15.0712758312246" Rotate="0.199265324125744, -3.02074015592705e-017, -7.37348677095259e-018, -0.979945575326029" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B4F59CE9-A04A-0666-2714-D808D8BB6740}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="647.016906387548, 496.729743038473, 15.0712758312245" Rotate="-0.022287949062511, 5.08613616108401e-017, -5.11831808175897e-017, -0.999751592810228" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{DF340C4C-BB83-C457-1857-A0E38582F451}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="646.64365297981, 488.362548121816, 15.0712758312245" Rotate="-0.0668195607943006, 6.86465265160332e-017, -2.40628695637144e-017, -0.997765075704325" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B5DEB2E9-4238-5199-4913-FFFB04444311}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="645.526857917074, 480.061822993314, 15.0712758312245" Rotate="-0.111218401342825, 8.62952900383936e-017, 3.10525486843161e-018, -0.993795988723413" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B1B02ECF-B690-9BBE-4554-AB4A69660E29}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="643.675393124911, 471.893509397811, 15.0712758312246" Rotate="-0.155396249738019, 1.03772583896432e-016, 3.02672091256105e-017, -0.987852218485822" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F13E631D-B7FF-0749-C52D-26FC3992409D}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="641.103966814739, 463.922497190915, 15.0712758312246" Rotate="-0.199265324124503, 1.21043680521068e-016, 5.73690221153663e-017, -0.979945575326281" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{7225B3ED-9E88-D683-E535-FBC3D57669F4}" name="Wall_Box_End_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="637.833006640384, 456.212108847603, 15.0712758312245" Rotate="-0.242738456178475, 1.38074262057095e-016, 8.43568422430697e-017, -0.970091769830097" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Wall_Box_End_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E12E1FB6-1647-381F-258D-B72269EB49C9}" name="Lowside_Main_Floor_Mid_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="340.971159692121, 496.729743038357, 32.0712758312252" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Main_Floor_Mid_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E91D8BD2-74E7-CE8D-4FE3-A9087E87BF6F}" name="Stairs_Sm_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.334347269275, 539.51132313999, 26.1768486402244" Rotate="0.834658797841603, 0.197036214308693, 0.11816570886196, 0.500557975349169" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Sm_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{F80BEB13-CED4-A88D-449C-55119AD4D28E}" name="Stairs_Sm_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="361.394900592955, 448.139296819116, 26.1768486400252" Rotate="0.504921359780993, 0.119195775586269, 0.196414794459854, 0.832026451524586" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Sm_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8A42CED6-4F01-815B-DC2F-B10C7D0494A1}" name="Lowside_Isle_Floor_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="358.728859463294, 539.300704696425, 26.0712758312244" Rotate="0.967974372097123, 9.06042510311326e-017, 3.49344482030477e-016, -0.251049029002666" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Isle_Floor_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{270DAEEF-2F9E-81CF-183C-C696F287B3EB}" name="Lowside_Isle_Floor_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="438.481723264481, 398.719828888903, 27.0712758312245" Rotate="-0.189446311675417, 4.57180783784757e-016, -8.82085751982372e-017, -0.981891081023033" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Isle_Floor_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{CEFF6605-415D-8F3C-16D4-192B165813F5}" name="Lowside_Isle_Wall_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="401.655885503254, 579.051533430601, 26.0712758312245" Rotate="0.863298172087128, -0.0, -0.0, -0.504694230273166" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Isle_Wall_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D25D2D26-8E77-E6CF-D4AC-283D6ADCE78C}" name="Lowside_Isle_Wall_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="402.637546032311, 416.151692692687, 26.0712758312241" Rotate="0.504694230273165, 6.54035682849453e-015, 3.82356926262059e-015, -0.863298172087129" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Isle_Wall_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{67515EBD-0819-32EF-00A8-075A446F9A6E}" name="Lowside_Main_Floor_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="344.743621979654, 547.078137558973, 34.0712758312164" Rotate="0.857600477240705, -0.0, 0.0, 0.514316460398182" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Main_Floor_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{19DD9B2A-E5E9-6F8B-56E9-86D9D1876C42}" name="Lowside_Main_Floor_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="344.261119668657, 447.28512998251, 34.0712758312186" Rotate="0.228449243752024, 4.65325942161824e-016, -4.03000114649067e-016, -0.973555824300347" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Main_Floor_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{2C3C5319-97D9-6917-3EC2-215D34CBD914}" name="Lowside_Seating_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="361.954915989614, 545.343473870321, 27.0712758312245" Rotate="0.887612489771161, -0.0, 0.0, 0.460590998611828" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Seating_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{B5558CE6-A2A7-6588-747D-C080D3AB830F}" name="Lowside_Seating_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="435.603395377921, 395.447196553399, 27.0712758312245" Rotate="-0.169867440825294, 3.55709911950313e-016, -6.13146226692504e-017, -0.985466921082319" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Lowside_Seating_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{FB89EF50-A929-2F12-6D05-2188959DC66D}" name="HighSide_Isle_Wall_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="554.901236533532, 594.624360131314, 26.0712758312245" Rotate="0.854842976900307, -0.0, 0.0, 0.518886774589815" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/HighSide_Isle_Wall_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{8A2E9667-9675-DFE5-7F0E-5139B29395D7}" name="Stairs_Big_RL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="537.737370630416, 417.206243865279, 15.0712758312227" Rotate="0.86759828087915, -0.0, -0.0, -0.497265746875394" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Big_RL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{BCFF73EF-FE49-7F66-1AC1-B8F9F237FA19}" name="HighSide_Isle_Wall_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="555.923626199587, 399.119526731165, 26.0712758312241" Rotate="0.867598280879151, -0.0, -0.0, -0.497265746875393" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/HighSide_Isle_Wall_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{0EA513D1-7CF2-2E14-0A0F-1280C84889DB}" name="Highside_Isle_Floor_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="556.969301561921, 393.76434641174, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Isle_Floor_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{957C9ED8-AC03-D894-27D3-F11D5BEAE193}" name="Highside_Isle_Floor_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="555.844672929261, 558.805846954085, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Isle_Floor_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{312A83D8-8A3F-1AC6-3B0C-0A0D2799CF9C}" name="Highside_Isle_Floor_MidL_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="623.550615535061, 496.729743038473, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Isle_Floor_MidL_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E123EFBC-AD5D-3D4B-2569-5E6D336008D0}" name="Highside_Isle_Floor_MidR_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="623.550615535061, 434.653639123113, 26.0712758312245" Rotate="0.929062279605617, 1.33525943279361e-016, 3.35350334551986e-016, -0.369923344240418" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Isle_Floor_MidR_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{E81FE07D-33D1-FDF6-FA9C-FC8B27FFF59C}" name="Highside_Main_Floor_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="560.898537201596, 377.668088951355, 34.0712758312022" Rotate="0.867598280879147, 3.35154206877894e-013, 5.84756170204371e-013, -0.4972657468754" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Main_Floor_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{576E0FAB-7932-E590-9B65-3A99F48E3FED}" name="Highside_Main_Floor_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="558.737468344829, 616.392547255113, 34.0712758312244" Rotate="0.989028120179447, 2.66615198513013e-017, 1.78497673549017e-016, -0.147727375575113" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Main_Floor_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{DDD961BC-2153-260C-EEE3-4D1353174746}" name="Highside_Seating_R_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="559.060652286589, 379.590279844799, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Seating_R_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{44563A14-2F5A-D251-7B55-F49EFE6F1B47}" name="Highside_Seating_L_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="557.731545720718, 566.457917269631, 27.0712758312244" Rotate="1.0, -0.0, -0.0, -0.0" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Highside_Seating_L_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{EAB25705-D247-F757-82D6-5F65C05B4261}" name="Stairs_Sm_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="626.812654590319, 431.595114904023, 26.0318649956066" Rotate="0.391121460819759, 0.0946247531890653, -0.215268990508884, -0.889791785023559" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Sm_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		<Object Type="GeomEntity" Layer="COLLISION" Id="{D954E735-93A0-396E-CBA6-6AC0CA0D2CB5}" name="Stairs_Sm_Col" LayerGUID="{B240F76E-FA8F-09FF-B009-52BDEE1B90B1}" FloorNumber="-1" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" Pos="638.495696938646, 572.749450429055, 34.3114958798214" Rotate="-0.378174464964351, 0.0909136386278224, 0.215336926563016, -0.895739243540647" Scale="1.0, 1.0, 1.0" ColorRGB="65535" MatLayersMask="0" Geometry="Levels/MultiplayerGame/geometry/collision/Stairs_Sm_Col.cgf"  OutdoorOnly="0" CastShadow="1" MotionBlurMultiplier="1" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" EntityClass="GeomEntity">
+					<Properties esFaction="">
+						<Health bInvulnerable="1" MaxHealth="500" bOnlyEnemyFire="1"/>
+						<Interest soaction_Action="" bInteresting="0" InterestLevel="1" Pause="15" Radius="20" bShared="0">
+							<vOffset x="0" y="0" z="0"/>
+						</Interest>
+</Properties>
+				</Object>
+		</LayerObjects>
+	</Layer>
+</ObjectLayer>

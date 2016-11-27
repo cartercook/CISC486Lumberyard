@@ -1,0 +1,370 @@
+<ObjectLayer>
+ <Layer Name="logic" GUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{F89B8E06-E216-4F30-8C71-88285D93B1B0}" Name="TwitchJoinInLogic" HideOrder="0" Pos="501.47617,500.89319,48.522961" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="UI:Canvas:Load" pos="-3470,-250,0" flags="0">
+       <Inputs CanvasPathname="ui/Canvases/twitchjoinin.uicanvas" Disabled="0"/>
+      </Node>
+      <Node Id="3" Class="Input:MouseCursor" pos="-3250,70,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="4" Class="Time:Delay" pos="-3470,70,0" flags="0">
+       <Inputs delay="1" resetOnInput="0"/>
+      </Node>
+      <Node Id="5" Class="UI:Canvas:ActionListener" pos="-3470,-180,0" flags="0">
+       <Inputs CanvasID="0" ActionName="JoinInClick" ElementID="0"/>
+      </Node>
+      <Node Id="7" Class="Twitch:JoinIn:CreateLink" pos="-3490,380,0" flags="0">
+       <Inputs Command="join"/>
+      </Node>
+      <Node Id="8" Class="Twitch:ChatPlay:Whisper" pos="-3490,470,0" flags="0">
+       <Inputs Sender="" Recipient="" Message=""/>
+      </Node>
+      <Node Id="9" Class="UI:Text:GetText" pos="-3470,-90,0" flags="0">
+       <Inputs CanvasID="0" ElementID="3"/>
+      </Node>
+      <Node Id="10" Class="String:SetString" pos="-3480,-1570,0" flags="0">
+       <Inputs In="ENTER NAME HERE"/>
+      </Node>
+      <Node Id="12" Class="Twitch:ChatPlay:RegisterCredentials" pos="-3480,-1330,0" flags="0">
+       <Inputs Username="" OAuth_Token="ENTER TOKEN HERE"/>
+      </Node>
+      <Node Id="14" Name="Set OAuth Token Here (see https://twitchapps.com/tmi/)" Class="_commentbox" pos="-3510,-1420.1432,0" flags="0">
+       <Inputs TextSize="1" Color="0.127438,1,0.127438" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="450" Height="150"/>
+       <NodeSize Width="1335.84912109375" Height="242.04988098144531"/>
+      </Node>
+      <Node Id="16" Name="Set Twitch broadcaster&apos;s name here" Class="_commentbox" pos="-3510,-1660.1431,0" flags="0">
+       <Inputs TextSize="1" Color="0.127438,1,0.127438" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="450" Height="140"/>
+       <NodeSize Width="840.84906005859375" Height="232.04988098144531"/>
+      </Node>
+      <Node Id="17" Name="Re-enable the mouse so the user can click the input field/send button" Class="_comment" pos="-3470,30,0" flags="0"/>
+      <Node Id="18" Class="Logic:IfCondition" pos="-3290,-420,0" flags="0">
+       <Inputs Condition="0"/>
+      </Node>
+      <Node Id="20" Name="Set this to 1 to activate the sample logic" Class="_commentbox" pos="-3510,-1903.4279,0" flags="0">
+       <Inputs TextSize="1" Color="0.127438,1,0.127438" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="450" Height="150"/>
+       <NodeSize Width="950.84906005859375" Height="242.04988098144531"/>
+      </Node>
+      <Node Id="21" Name="UI controls/interface" Class="_commentbox" pos="-3520,-553.46875,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="670" Height="710"/>
+       <NodeSize Width="670" Height="802.0499267578125"/>
+      </Node>
+      <Node Id="23" Class="Debug:DisplayMessage" pos="-3080,510,0" flags="0" InHideMask="1023" OutHideMask="3" GraphEntity="0">
+       <Inputs message="Invite failed" DisplayTime="0" posX="50" posY="50" fontSize="2" clr_Color="1,0,0" centered="0"/>
+      </Node>
+      <Node Id="24" Class="Debug:DisplayMessage" pos="-3080,440,0" flags="0" InHideMask="1023" OutHideMask="3" GraphEntity="0">
+       <Inputs message="Invite sent" DisplayTime="1" posX="50" posY="50" fontSize="2" clr_Color="1,1,1" centered="0"/>
+      </Node>
+      <Node Id="29" Class="Debug:DisplayMessage" pos="-3080,-2050,0" flags="0" InHideMask="1023" OutHideMask="3">
+       <Inputs message="The TwitchJoinIn sample will only work when run from the MultiplayerProjectLauncher" DisplayTime="0" posX="50" posY="50" fontSize="2" clr_Color="1,0,0" centered="0"/>
+      </Node>
+      <Node Id="37" Class="Math:SetNumber" pos="-3470,-1800,0" flags="0">
+       <Inputs In="0"/>
+      </Node>
+      <Node Id="39" Class="Game:Start" pos="-3430,-770,0" flags="0">
+       <Inputs InGame="1" InEditor="0"/>
+      </Node>
+      <Node Id="40" Class="Logic:Any" pos="-3020,-890,0" flags="0" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="41" Class="Logic:Blocker" pos="-3460,-420,0" flags="0">
+       <Inputs Block="0"/>
+      </Node>
+      <Node Id="42" Class="Game:Start" pos="-3430,-1000,0" flags="0">
+       <Inputs InGame="0" InEditor="1"/>
+      </Node>
+      <Node Id="43" Class="Math:SetNumber" pos="-3240,-1000,0" flags="0">
+       <Inputs In="1"/>
+      </Node>
+      <Node Id="44" Class="Math:SetNumber" pos="-3250,-770,0" flags="0">
+       <Inputs In="1"/>
+      </Node>
+      <Node Id="45" Class="Logic:IfCondition" pos="-3300,-2050,0" flags="0">
+       <Inputs Condition="0"/>
+      </Node>
+      <Node Id="46" Class="Logic:Blocker" pos="-3480,-2040,0" flags="0">
+       <Inputs Block="0"/>
+      </Node>
+      <Node Id="47" Name="Build and send Twitch JoinIn link via ChatPlay" Class="_commentbox" pos="-3520,254.81592,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="670" Height="310"/>
+       <NodeSize Width="1073.84912109375" Height="402.04986572265625"/>
+      </Node>
+      <Node Id="48" Name="Use the &quot;join&quot; command (remember to configure the TwitchJoinInLauncher to accept this command)" Class="_comment" pos="-3490,350,0" flags="0"/>
+      <Node Id="50" Name="Show success or failure" Class="_comment" pos="-3080,400,0" flags="0"/>
+      <Node Id="52" Name="Display warning if running in Editor mode" Class="_commentbox" pos="-3510,-2185.1855,0" flags="0">
+       <Inputs TextSize="1" Color="1,0.127438,0.127438" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="690" Height="190"/>
+       <NodeSize Width="976.84906005859375" Height="282.04986572265625"/>
+      </Node>
+      <Node Id="53" Name="Load UI canvas and listen for the Send button" Class="_comment" pos="-3470,-290,0" flags="0"/>
+      <Node Id="54" Name="Startup logic (detect game or editor modes)" Class="_commentbox" pos="-3520,-1145.0864,0" flags="0">
+       <Inputs TextSize="1" Color="0.27451,0.352941,0.705882" DisplayFilled="1" DisplayBox="1" SortPriority="16"/>
+       <ResizeBorder X="0" Y="0" Width="690" Height="480"/>
+       <NodeSize Width="1035.84912109375" Height="572.0499267578125"/>
+      </Node>
+      <Node Id="57" Name="This sample must be run in the MultiplayerProjectLauncher, as the Editor doesn&apos;t support &quot;mphost&quot; mode" Class="_comment" pos="-3490,-2100,0" flags="0"/>
+      <Node Id="58" Class="Logic:Any" pos="-3230,510,0" flags="1" InHideMask="1023" OutHideMask="1">
+       <Inputs />
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="5" nodeOut="2" portIn="CanvasID" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="5" nodeOut="2" portIn="Activate" portOut="OnLoad" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="2" portIn="CanvasID" portOut="CanvasID" enabled="1"/>
+      <Edge nodeIn="3" nodeOut="4" portIn="Show" portOut="out" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="5" portIn="Activate" portOut="OnAction" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="7" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="7" portIn="Message" portOut="Out" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="7" portIn="In0" portOut="Error" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="8" portIn="Show" portOut="Success" enabled="1"/>
+      <Edge nodeIn="58" nodeOut="8" portIn="In1" portOut="Error" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="9" portIn="Activate" portOut="Value" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="9" portIn="Recipient" portOut="Value" enabled="1"/>
+      <Edge nodeIn="8" nodeOut="10" portIn="Sender" portOut="Out" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="10" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="12" nodeOut="10" portIn="Username" portOut="Out" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="18" portIn="Activate" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="4" nodeOut="18" portIn="in" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="10" nodeOut="18" portIn="Set" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="37" portIn="Condition" portOut="Out" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="37" portIn="In" portOut="Out" enabled="1"/>
+      <Edge nodeIn="45" nodeOut="37" portIn="Condition" portOut="Out" enabled="1"/>
+      <Edge nodeIn="46" nodeOut="37" portIn="In" portOut="Out" enabled="1"/>
+      <Edge nodeIn="44" nodeOut="39" portIn="Activate" portOut="output" enabled="1"/>
+      <Edge nodeIn="37" nodeOut="40" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="18" nodeOut="41" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="43" nodeOut="42" portIn="Activate" portOut="output" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="43" portIn="In0" portOut="Out" enabled="1"/>
+      <Edge nodeIn="41" nodeOut="43" portIn="Block" portOut="Out" enabled="1"/>
+      <Edge nodeIn="40" nodeOut="44" portIn="In1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="46" nodeOut="44" portIn="Block" portOut="Out" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="45" portIn="Show" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="45" nodeOut="46" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="23" nodeOut="58" portIn="Show" portOut="Out" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{E82B2AE8-D35B-4835-806A-554C8B92F191}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{212AF409-AFC1-4D23-A862-8A6CC0824AD7}" Name="GoalTrigger2" HideOrder="0" Pos="421.99997,498,3.9999995" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="0" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="1" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{7EC20D45-7D66-4DE5-9159-D09DE0E48DED}" Name="StartSettings" HideOrder="0" Pos="501.99997,500,49" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="1021" Class="Game:Start" pos="-555.81128,1192.4091,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="1022" Class="Debug:ConsoleVariable" pos="-320,1190,0" flags="0">
+       <Inputs ResetOnGameEnd="0" CVar="r_DeferredShadingAreaLights" Value="1"/>
+      </Node>
+      <Node Id="1023" Class="Time:TimeOfDay" pos="-320,1290,0" flags="0">
+       <Inputs Time="14.5" ForceUpdate="0" Speed="1"/>
+      </Node>
+      <Node Id="1024" Class="Debug:ConsoleVariable" pos="-320,1090,0" flags="0">
+       <Inputs ResetOnGameEnd="0" CVar="es_FarPhysTimeout" Value="0"/>
+      </Node>
+      <Node Id="1025" Class="Input:MouseCursor" pos="-320,1430,0" flags="0">
+       <Inputs />
+      </Node>
+      <Node Id="1026" Class="Mission:GameTokenSet" pos="-320,1010,0" flags="0">
+       <Inputs gametoken_Token="Level.BallEntityId" TokenValue=""/>
+      </Node>
+      <Node Id="1027" Class="Entity:EntityId" pos="-450,1010,0" flags="0" EntityGUID="{689320C8-6D02-405B-9B26-04377C44B12E}" EntityGUID_64="405B6D02689320C8">
+       <Inputs />
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="1022" nodeOut="1021" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="1023" nodeOut="1021" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="1024" nodeOut="1021" portIn="Set" portOut="output" enabled="1"/>
+      <Edge nodeIn="1025" nodeOut="1021" portIn="Hide" portOut="output" enabled="1"/>
+      <Edge nodeIn="1026" nodeOut="1021" portIn="Activate" portOut="output" enabled="1"/>
+      <Edge nodeIn="1026" nodeOut="1027" portIn="TokenValue" portOut="Id" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{C482EE6C-1C18-4CB4-A399-663807A5716E}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="AreaBox" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{D8301954-2F45-4A34-AEF5-3455958002D2}" Name="GoalAreaBox2" HideOrder="0" Pos="416.1308,496.83337,1.9999999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" AreaId="-1" FadeInZone="0" Width="4" Length="25" Height="5" GroupId="0" Priority="0" DisplayFilled="1" DisplaySoundInfo="0" EntityClass="AreaBox" BoxMin="-2,-12.5,0" BoxMax="2,12.5,5">
+    <EntityLinks>
+     <Link TargetId="{689320C8-6D02-405B-9B26-04377C44B12E}" Name="NewLink" Version="1"/>
+    </EntityLinks>
+    <Entities>
+     <Entity Id="{212AF409-AFC1-4D23-A862-8A6CC0824AD7}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0"/>
+   </Object>
+   <Object Type="GeomEntity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{3FC1F56A-2132-46F0-85FC-276886B08162}" Name="BlueScore" HideOrder="0" Pos="358.99997,487.70557,26.999998" FloorNumber="-1" Rotate="0.5,0.50000006,0.5,0.5" Scale="6,6,6" ColorRGB="65535" Material="materials/scoreboard/blue_0" Geometry="objects/scoreboard/score.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="AreaBox" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{4245D171-2BD0-40CB-96F0-FC9B47A39205}" Name="GoalAreaBox1" HideOrder="0" Pos="583.80878,496.58377,1.9999999" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="255" AreaId="-1" FadeInZone="0" Width="4" Length="25" Height="5" GroupId="0" Priority="0" DisplayFilled="1" DisplaySoundInfo="0" EntityClass="AreaBox" BoxMin="-2,-12.5,0" BoxMax="2,12.5,5">
+    <EntityLinks>
+     <Link TargetId="{689320C8-6D02-405B-9B26-04377C44B12E}" Name="NewLink" Version="1"/>
+    </EntityLinks>
+    <Entities>
+     <Entity Id="{BECFB3EC-B9E8-418E-8C50-F701C4F3833F}"/>
+    </Entities>
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0"/>
+   </Object>
+   <Object Type="AreaBox" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{2BA34BA1-A191-4645-A6D8-83C572861E67}" Name="BallStartAreaBox" HideOrder="0" Pos="499.84741,496.13773,5.9999981" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16711680" AreaId="-1" FadeInZone="0" Width="4" Length="4" Height="1" GroupId="0" Priority="0" DisplayFilled="0" DisplaySoundInfo="0" EntityClass="AreaBox" BoxMin="-2,-2,0" BoxMax="2,2,1">
+    <SoundData Side1="0" Side2="0" Side3="0" Side4="0" Side5="0" Side6="0"/>
+   </Object>
+   <Object Type="GeomEntity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{C3A1EBA2-ECFB-4CC9-980E-5EF5C695D01A}" Name="RedScore" HideOrder="0" Pos="358.99997,500.20438,26.999998" FloorNumber="-1" Rotate="0.5,0.50000006,0.5,0.5" Scale="6,6,6" ColorRGB="65535" Material="materials/scoreboard/red_0" Geometry="objects/scoreboard/score.cgf" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="GeomEntity">
+    <Properties esFaction="">
+     <Health bInvulnerable="0" MaxHealth="500" bOnlyEnemyFire="1"/>
+     <RenderProxyOptions bAnimateOffScreenShadow="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{909AB8C6-C0F4-4B34-A765-939D536A5D2A}" Name="GameLogic" HideOrder="0" Pos="501.55109,498.50891,48.526646" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="16776960" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="FlowgraphEntity">
+    <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
+     <Nodes>
+      <Node Id="2" Class="entity:AreaTrigger" pos="-300,-150,0" flags="0" EntityGUID="{BECFB3EC-B9E8-418E-8C50-F701C4F3833F}" EntityGUID_64="418EB9E8BECFB3EC">
+       <Inputs Disable="0" Enable="1" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="5" Class="Debug:Log" pos="150,-150,0" flags="0">
+       <Inputs message="Goal 1 Triggered (Red)"/>
+      </Node>
+      <Node Id="6" Class="Game:Start" pos="-590,70,0" flags="0">
+       <Inputs InGame="1" InEditor="1"/>
+      </Node>
+      <Node Id="7" Class="Entity:EntityInfo" pos="-290,40,0" flags="0" EntityGUID="{689320C8-6D02-405B-9B26-04377C44B12E}" EntityGUID_64="405B6D02689320C8">
+       <Inputs />
+      </Node>
+      <Node Id="9" Class="entity:AreaTrigger" pos="-290,200,0" flags="0" EntityGUID="{212AF409-AFC1-4D23-A862-8A6CC0824AD7}" EntityGUID_64="4D23AFC1212AF409">
+       <Inputs Disable="0" Enable="0" Enter="0" Leave="0"/>
+      </Node>
+      <Node Id="11" Class="Debug:Log" pos="170,200,0" flags="0">
+       <Inputs message="Goal 2 Triggered (Blue)"/>
+      </Node>
+      <Node Id="12" Name="The ball entity" Class="_comment" pos="-290,20,0" flags="0"/>
+      <Node Id="13" Name="Red Goal" Class="_comment" pos="-300,-170,0" flags="0"/>
+      <Node Id="14" Name="Blue Goal" Class="_comment" pos="-290,180,0" flags="0"/>
+      <Node Id="15" Class="Movement:MoveEntityTo" pos="400,30,0" flags="0" InHideMask="1023" OutHideMask="31" EntityGUID="{689320C8-6D02-405B-9B26-04377C44B12E}" EntityGUID_64="405B6D02689320C8">
+       <Inputs Destination="0,0,0" DynamicDestination="0" ValueType="1" Value="0" EaseInDistance="0" EaseOutDistance="0" CoordSys="1"/>
+      </Node>
+      <Node Id="16" Class="Logic:Any" pos="140,30,0" flags="0" InHideMask="1020" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="17" Class="Entity:GetPos" pos="250,30,0" flags="0" InHideMask="7" OutHideMask="63" EntityGUID="{2BA34BA1-A191-4645-A6D8-83C572861E67}" EntityGUID_64="4645A1912BA34BA1">
+       <Inputs CoordSys="1"/>
+      </Node>
+      <Node Id="18" Name="Reset the ball" Class="_comment" pos="140,10,0" flags="0"/>
+      <Node Id="19" Class="Material:EntityMaterialChange" pos="-290,440,0" flags="0" EntityGUID="{C3A1EBA2-ECFB-4CC9-980E-5EF5C695D01A}" EntityGUID_64="4CC9ECFBC3A1EBA2">
+       <Inputs mat_MaterialName="materials/scoreboard/red_0.mtl" SerializeChanges="0"/>
+      </Node>
+      <Node Id="22" Class="Material:EntityMaterialChange" pos="-290,550,0" flags="0" EntityGUID="{3FC1F56A-2132-46F0-85FC-276886B08162}" EntityGUID_64="46F021323FC1F56A">
+       <Inputs mat_MaterialName="materials/scoreboard/blue_0.mtl" SerializeChanges="0"/>
+      </Node>
+      <Node Id="23" Name="Reset score" Class="_comment" pos="-530,-140,0" flags="0"/>
+      <Node Id="24" Class="Math:Counter" pos="150,-90,0" flags="0">
+       <Inputs Max="10"/>
+      </Node>
+      <Node Id="25" Class="String:Concat" pos="440,-90,0" flags="0">
+       <Inputs String1="materials/scoreboard/blue_" String2=""/>
+      </Node>
+      <Node Id="26" Class="String:Concat" pos="720,-90,0" flags="0">
+       <Inputs String1="" String2=".mtl"/>
+      </Node>
+      <Node Id="27" Class="Material:EntityMaterialChange" pos="870,-90,0" flags="0" EntityGUID="{3FC1F56A-2132-46F0-85FC-276886B08162}" EntityGUID_64="46F021323FC1F56A">
+       <Inputs mat_MaterialName="" SerializeChanges="0"/>
+      </Node>
+      <Node Id="28" Class="Math:Equal" pos="460,-270,0" flags="0">
+       <Inputs A="0" B="0"/>
+      </Node>
+      <Node Id="29" Class="Logic:Any" pos="-530,-120,0" flags="0" InHideMask="1021" OutHideMask="1">
+       <Inputs />
+      </Node>
+      <Node Id="30" Class="Math:Counter" pos="140,280,0" flags="0">
+       <Inputs Max="10"/>
+      </Node>
+      <Node Id="31" Class="Math:Equal" pos="340,550,0" flags="1">
+       <Inputs A="0" B="0"/>
+      </Node>
+      <Node Id="32" Class="String:Concat" pos="460,270,0" flags="0">
+       <Inputs String1="materials/scoreboard/red_" String2=""/>
+      </Node>
+      <Node Id="33" Class="String:Concat" pos="740,270,0" flags="0">
+       <Inputs String1="" String2=".mtl"/>
+      </Node>
+      <Node Id="34" Class="Material:EntityMaterialChange" pos="890,270,0" flags="0" EntityGUID="{C3A1EBA2-ECFB-4CC9-980E-5EF5C695D01A}" EntityGUID_64="4CC9ECFBC3A1EBA2">
+       <Inputs mat_MaterialName="materials/scoreboard/blue_0.mtl" SerializeChanges="0"/>
+      </Node>
+      <Node Id="35" Name="Max score of 3" Class="_comment" pos="310,250,0" flags="0"/>
+      <Node Id="36" Name="Max score of 3" Class="_comment" pos="290,-110,0" flags="0"/>
+      <Node Id="37" Class="Math:SetNumber" pos="-31.930845,153.51367,0" flags="0">
+       <Inputs In="3"/>
+      </Node>
+     </Nodes>
+     <Edges>
+      <Edge nodeIn="5" nodeOut="2" portIn="input" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="2" portIn="In0" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="2" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="2" nodeOut="6" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="7" nodeOut="6" portIn="Get" portOut="output" enabled="1"/>
+      <Edge nodeIn="9" nodeOut="6" portIn="Enable" portOut="output" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="6" portIn="In2" portOut="output" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="6" portIn="In0" portOut="output" enabled="1"/>
+      <Edge nodeIn="37" nodeOut="6" portIn="Activate" portOut="output" enabled="1"/>
+      <Edge nodeIn="11" nodeOut="9" portIn="input" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="16" nodeOut="9" portIn="In1" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="9" portIn="In" portOut="Enter" enabled="1"/>
+      <Edge nodeIn="17" nodeOut="16" portIn="Get" portOut="Out" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="17" portIn="Destination" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="15" nodeOut="17" portIn="Start" portOut="Pos" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="24" portIn="String2" portOut="Count" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="24" portIn="A" portOut="Count" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="24" portIn="Activate" portOut="Count" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="25" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="26" nodeOut="25" portIn="String1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="26" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="27" nodeOut="26" portIn="mat_MaterialName" portOut="Out" enabled="1"/>
+      <Edge nodeIn="25" nodeOut="28" portIn="Set" portOut="OnFalse" enabled="1"/>
+      <Edge nodeIn="19" nodeOut="29" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="22" nodeOut="29" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="24" nodeOut="29" portIn="Reset" portOut="Out" enabled="1"/>
+      <Edge nodeIn="30" nodeOut="29" portIn="Reset" portOut="Out" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="30" portIn="A" portOut="Count" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="30" portIn="Activate" portOut="Count" enabled="1"/>
+      <Edge nodeIn="32" nodeOut="30" portIn="String2" portOut="Count" enabled="1"/>
+      <Edge nodeIn="29" nodeOut="31" portIn="In1" portOut="OnTrue" enabled="1"/>
+      <Edge nodeIn="32" nodeOut="31" portIn="Set" portOut="OnFalse" enabled="1"/>
+      <Edge nodeIn="33" nodeOut="32" portIn="Set" portOut="Out" enabled="1"/>
+      <Edge nodeIn="33" nodeOut="32" portIn="String1" portOut="Out" enabled="1"/>
+      <Edge nodeIn="34" nodeOut="33" portIn="Activate" portOut="Out" enabled="1"/>
+      <Edge nodeIn="34" nodeOut="33" portIn="mat_MaterialName" portOut="Out" enabled="1"/>
+      <Edge nodeIn="28" nodeOut="37" portIn="B" portOut="Out" enabled="1"/>
+      <Edge nodeIn="31" nodeOut="37" portIn="B" portOut="Out" enabled="1"/>
+     </Edges>
+     <HyperGraphId Id="{9380F090-19DB-4144-A47C-C0375BCB5C1B}"/>
+     <GraphTokens />
+    </FlowGraph>
+   </Object>
+   <Object Type="EnvironmentProbe" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{F491C5CD-7A22-4E6F-8871-7A8CA40FB48C}" Name="EnvironmentProbe1" HideOrder="0" Pos="502.99997,505,49" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" cubemap_resolution="256" preview_cubemap="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="EnvironmentLight">
+    <Properties bActive="1" BoxSizeX="1000" BoxSizeY="1000" BoxSizeZ="1000" _nVersion="0">
+     <Color clrDiffuse="1,1,1" fDiffuseMultiplier="2.2" fSpecularMultiplier="1.1"/>
+     <Options bAffectsThisAreaOnly="1" bAffectsVolumetricFogOnly="0" fAttenuationFalloffMax="0.3" _texture_deferred_cubemap="" bDeferredClipBounds="0" bIgnoresVisAreas="0" SortPriority="0" bVolumetricFog="1"/>
+     <OptionsAdvanced texture_deferred_cubemap="levels/MultiplayerGame/geometry/cubemaps/environmentprobe1_cm.tif"/>
+     <Projection fBoxHeight="10" fBoxLength="10" bBoxProject="0" fBoxWidth="10"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="logic" LayerGUID="{739C03ED-1333-4233-9ACD-6EB87F7A36FA}" Id="{BECFB3EC-B9E8-418E-8C50-F701C4F3833F}" Name="GoalTrigger1" HideOrder="0" Pos="578.99994,501,2.9999998" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" LodRatio="100" ViewDistanceMultiplier="1" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" CreatedThroughPool="0" ObstructionMultiplier="1" EntityClass="AreaTrigger">
+    <Properties bEnabled="1" esFactionFilter="" bInVehicleOnly="0" bOnlyLocalPlayer="0" bOnlyPlayers="0" PlaySequence="" ScriptCommand="" bTriggerOnce="0">
+     <MultiplayerOptions bNetworked="1" bPerPlayer="0"/>
+    </Properties>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

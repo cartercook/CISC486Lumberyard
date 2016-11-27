@@ -1,0 +1,84 @@
+<ObjectLayer>
+ <Layer Name="STADIUM" GUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1">
+  <LayerObjects>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{D9280413-C210-4FFA-BBDC-0CB6FCF03A45}" Name="Component5" HideOrder="0" Pos="776.82745,470,30.145493" FloorNumber="-1" Rotate="0.99950653,0,-0.031410757,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component5.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{1D5DAE15-46B7-429B-A756-E1D32E57185C}" Name="Component11" HideOrder="0" Pos="580.92218,610.11957,32.438015" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.5,0.5,0.63499999" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component11.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{767C2217-F9DA-4642-891E-EE756A5E80B9}" Name="PlayUpGrp17" HideOrder="0" Pos="233.01926,363.47849,25.655941" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/PlayUpGrp17.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{B0C44620-F42D-4AD5-A04F-C119E3594CA3}" Name="Group15_100_m100_100" HideOrder="0" Pos="354.98508,602.25629,10.526656" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Group15_100_m100_100.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{C5673535-6DEF-4D89-A1D9-D4183B2AE27E}" Name="PlayUpGrp15" HideOrder="0" Pos="410,483.20648,1.5266562" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/PlayUpGrp15.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{CCBBA638-BE60-4238-9430-241876467C43}" Name="Component10" HideOrder="0" Pos="350.98508,387.20633,1.5266562" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component10.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{80BAE656-5E15-48A6-A0EB-660B94124233}" Name="Group11" HideOrder="0" Pos="354.98508,391.20322,10.526656" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Group11.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{C84BE36A-0283-4608-B5F8-16A0DEE5D3F9}" Name="Component11" HideOrder="0" Pos="580.92218,639.31958,32.438015" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.5,0.5,0.63499999" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component11.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{D7043B6E-FDD2-432F-893B-2DCE741204E7}" Name="Component14" HideOrder="0" Pos="622.09796,436.02838,26.071276" FloorNumber="-1" Rotate="1,0,0,0" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component14.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{754CEF93-04E2-4AEA-A6D8-DAEE9FE209D4}" Name="Component9" HideOrder="0" Pos="726.69751,434.35495,35.071278" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.73944336,0.61271501,1" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component9.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{BDBA78AF-021D-46CC-BCEC-A30C5DAE66BB}" Name="PlayUpGrp16" HideOrder="0" Pos="590,510.20648,1.5266562" FloorNumber="-1" Rotate="3.9585002e-013,0,0,1" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/PlayUpGrp16.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{C6DEC5D9-3B9A-4B28-8253-CE1BCAD8EE3C}" Name="StadiumGround" HideOrder="0" Pos="350,586.70648,1.5266562" FloorNumber="-1" Rotate="0.70710683,0,0,-0.70710677" Scale="1.4999999,1.4999999,1.5" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/StadiumGround.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="STADIUM" LayerGUID="{6180D498-422E-9898-EC08-56A94D5A55B9}" Id="{83947CDD-7B2C-4E1F-9341-E401D8AAA741}" Name="Component11" HideOrder="0" Pos="580.92218,668.51953,32.438015" FloorNumber="-1" Rotate="1,0,0,0" Scale="0.5,0.5,0.63499999" ColorRGB="65535" MatLayersMask="0" Prefab="levels/GameLiftLobby/geometry/Component11.cgf" OutdoorOnly="0" CastShadowMaps="1" RainOccluder="1" SupportSecondVisarea="0" Hideable="0" LodRatio="100" ViewDistanceMultiplier="1" NotTriangulate="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" NoAmnbShadowCaster="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" RndFlags="1610612744">
+    <CollisionFiltering>
+     <Type RobotBody="0" Ball="0"/>
+     <Ignore RobotBody="0" Ball="0"/>
+    </CollisionFiltering>
+   </Object>
+  </LayerObjects>
+ </Layer>
+</ObjectLayer>

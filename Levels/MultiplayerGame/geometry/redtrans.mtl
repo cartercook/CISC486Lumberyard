@@ -1,0 +1,7 @@
+<Material MtlFlags="524290" Shader="Illum" GenMask="80000001" StringGenMask="%ALLOW_SILHOUETTE_POM%SUBSURFACE_SCATTERING" SurfaceType="mat_concrete" Diffuse="1,1,1" Specular="0.068478175,0.068478175,0.068478175" Emittance="0.91309881,0.1169707,0.035601322,10" Opacity="0.75" Shininess="237" CloakAmount="0" vertModifType="0" LayerAct="1">
+ <Textures>
+  <Texture Map="Diffuse" File="textures/styletown/_dev_red.tif"/>
+  <Texture Map="Emittance" File="textures/styletown/_dev_red.tif"/>
+ </Textures>
+ <PublicParams EmittanceMapGamma="1" SSSIndex="0" IndirectColor="0.25,0.25,0.25"/>
+</Material>
